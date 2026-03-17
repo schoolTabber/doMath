@@ -9,6 +9,17 @@ function answer() {
   var operater = getOperater
   if (operater === "addition") {
     var answer = number1 + number2;
-    var answer = number1 + number2;
+    result.textContent = answer;
+  } else if (operater === "subtraction") {
+    var answer = number1 - number2;
+    result.textContent = answer;
+  } else if (operater === "division") {
+    var answer = number1 / number2;
+    result.textContent = answer;
+  } else if (operater === "multiplication") {
+    var answer = number1 * number2;
+    result.textContent = answer;
+  } else {
+    console.error("Unknown operator."):
   }
 }
