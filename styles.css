@@ -19,3 +19,9 @@ input {
   right: 2px;
   zIndex: 999;
 }
+#submit {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: gray;
+}
